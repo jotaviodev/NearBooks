@@ -1,24 +1,18 @@
 import styled from 'styled-components'
-import { createGlobalStyle } from 'styled-components'
 import Header from "./components/Header"
-function App() {
-  const AppContainer = styled.div`
-    width: 100vw;
-    height: 100vh;
-    background-color: #232F3E;
-  `
-  const GlobalStyle = createGlobalStyle`
-  *{
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-  }
-  `
+import SearchSection from './components/SearchSection'
 
+const AppContainer = styled.div`
+width: 100vw;
+height: 100vh;
+background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);;
+`
+
+function App() {
   return (
     <AppContainer>
-      <GlobalStyle />
       <Header />
+      <SearchSection />
     </AppContainer>
 
   )
