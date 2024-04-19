@@ -16,11 +16,4 @@ const SearchBarElement = styled.input`
             font-size: 16px;
     }
 `
-function SearchBar(){
-    return(
-        <>
-            <SearchBarElement type="text" placeholder="Escreva sua próxima leitura" />
-        </>
-    )
-}
-export default SearchBar
+export default SearchBarElement
