@@ -40,7 +40,6 @@ const Result = styled.div`
 `
 function SearchSection(){
     const[searchedBooks,setSearchedBooks] = useState([])
-    console.log(searchedBooks)
     return(
         <SearchSectionContainer>
             <Title>Já sabe por onde começar ?</Title>
